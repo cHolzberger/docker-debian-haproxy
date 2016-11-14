@@ -1,0 +1,11 @@
+[template]
+prefix="/haproxy"
+src="haproxy.cfg"
+dest="/etc/haproxy/haproxy.cfg"
+owner="haproxy"
+mode="0644"
+keys = [ 
+	"/",
+]
+
+reload_cmd="sv restart haproxy"

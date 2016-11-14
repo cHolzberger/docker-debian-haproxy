@@ -1,0 +1,3 @@
+#!/bin/bash
+
+curl -o /etc/haproxy/acme-http01-webroot.lua https://raw.githubusercontent.com/janeczku/haproxy-acme-validation-plugin/master/acme-http01-webroot.lua 

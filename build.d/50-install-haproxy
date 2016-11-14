@@ -1,0 +1,6 @@
+#!/bin/bash
+
+set-selections haproxy
+apply-apt jessie-backports
+mkdir /run/haproxy
+mkdir /certs
