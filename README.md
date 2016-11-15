@@ -4,7 +4,7 @@ automate haproxy configuration from confd
 
 # TODO 
  * add ocsp stapling
-
+ * take a look at http://loredo.me/post/116633549315/geeking-out-with-haproxy-on-pfsense-the-ultimate
 # SEE:
 http://www.jinnko.org/2015/03/ocsp-stapling-with-haproxy.html
 http://cbonte.github.io/haproxy-dconv/configuration-1.5.html#5.1-crt
