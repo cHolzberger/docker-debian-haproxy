@@ -1,0 +1,11 @@
+#!/bin/bash
+
+DOMAIN="$1"
+MAIL="$2"
+
+certbot-auto certonly --webroot --text \
+--webroot-path "/var/lib/haproxy" \
+--renew-by-default --agree-tos \
+--email "$MAIL" -d "$DOMAIN"
+
+/commands/certbot-concat-crt

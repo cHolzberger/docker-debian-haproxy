@@ -1,5 +1,4 @@
 #!/bin/bash
 
-certbot --text --renew 
-
 /commands/certbot-concat-crt
+exec haproxy -f /etc/haproxy/haproxy.cfg
