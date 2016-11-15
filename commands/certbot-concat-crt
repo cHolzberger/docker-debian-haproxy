@@ -1,0 +1,5 @@
+#!/bin/bash
+
+for DOMAIN in $(ls /etc/letsencrypt/live/); do
+	cat /etc/letsencrypt/live/$DOMAIN/privkey.pem /etc/letsencrypt/live/$DOMAIN/fullchain.pem > /certs/$DOMAIN.pem
+done
