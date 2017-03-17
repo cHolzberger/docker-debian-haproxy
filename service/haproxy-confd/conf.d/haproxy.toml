@@ -8,4 +8,4 @@ keys = [
 	"/",
 ]
 
-reload_cmd="sv restart haproxy"
+reload_cmd="/bin/s6-svc -t /var/run/s6/services/haproxy-confd"
